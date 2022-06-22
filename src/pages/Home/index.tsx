@@ -6,7 +6,7 @@ export default function Home() {
         <Grid container style={{height: '100vh'}}>
             <Grid item container xs={6}>
                 <Grid item xs={12}>
-                    <Typography variant='h1'>Título</Typography>
+                    <Typography variant='h1' color='text.primary'>Título</Typography>
                 </Grid>
                 <Grid item xs={4}>
                     <CustomPaper title='Texto 1'/>
@@ -16,7 +16,7 @@ export default function Home() {
                 </Grid>  
             </Grid>
             <Grid item xs={6}>
-                <Typography variant='h2'>Título 2</Typography>
+                <Typography variant='h2' color='text.primary'>Título 2</Typography>
             </Grid>
         </Grid>
     );
