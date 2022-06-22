@@ -8,7 +8,7 @@ import  lightTheme, { darkTheme } from './config/styles/themes/Default';
 
 export default function App() {
     return (
-        <ThemeProvider theme={darkTheme}>
+        <ThemeProvider theme={lightTheme}>
             <StylesGlobal/>
             <Routers/>
         </ThemeProvider>
