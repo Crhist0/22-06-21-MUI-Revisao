@@ -25,7 +25,7 @@ function Landing() {
 
             </Grid>
 
-            <Grid container >
+            <Grid container>
 
                 <Grid item xs={6} >
                     <Box sx={{display: 'flex', justifyContent: "center", alignItems: "center"}}>
