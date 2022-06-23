@@ -1,12 +1,17 @@
 import { Box, Grid } from "@mui/material"
 import Card from "../../components/Card"
 import CardImage from "../../components/CardImage"
-
+import ScreenshotMonitorIcon from '@mui/icons-material/ScreenshotMonitor';
 
 function Landing() {
 
     return(
         <>
+            <ScreenshotMonitorIcon sx={{fontSize: "150px"}}  />
+            <ScreenshotMonitorIcon fontSize="large"  />
+            <ScreenshotMonitorIcon fontSize="medium"  />
+            <ScreenshotMonitorIcon fontSize="small"  />
+            
             <Grid container >
 
                 <Grid item xs={6}>
